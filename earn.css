@@ -1,0 +1,48 @@
+
+@media(max-width:800px) {
+    .body{
+        width: 100vw;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(248, 248, 248);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px);
+}
+img{
+    width: 300px;
+    position: absolute;
+    top: 1%;
+}
+div{
+    position:absolute;
+    top: 50%;
+    height: 150px;
+    padding-right: 310px;
+    padding-top: 4000%;
+    width: 10px;
+}
+button{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg, #ff994f,#fa6d86);
+    cursor: pointer;
+}
